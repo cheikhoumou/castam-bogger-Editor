@@ -1,7 +1,3 @@
-console.log('data');
-function camondata(){
-var username = document.getElementById("username").value;
-var password = document.getElementById("password").value;    
+console.log('data1');
+let username = document.getElementById("displayusername").innerHTML;
 localStorage.setItem(user,username);
-localStorage.setItem(pass,password);
-}
